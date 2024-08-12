@@ -1,0 +1,478 @@
+/*--------------------------------------------------------
+--------------This is  default styling  area--------------
+----------------------------------------------------------
+*/ 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------
+-------------This is  where the body take action----------
+----------------------------------------------------------
+*/ 
+body{
+    background-color: white;
+}
+
+.container1-1 ,.container2,.container4,.container5 ,.container6,.container7-1{
+    margin-left: 16%;
+    margin-right: 16%;
+}
+/*--------------------------------------------------------
+-----This is container1 socio-media & GET A QUOTE Area----
+----------------------------------------------------------
+*/
+#container1 .container1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:0;
+    margin-bottom: 1.5%;
+    padding-top: 10px;
+
+}
+#container1{
+    background-color:#061E29;
+}
+
+/* container1 class(contacts) styling */
+#container1 .container1-1 .contacts{
+    position: relative;
+    right:22.9%;
+    color: beige;
+}
+#container1 .container1-1 .contacts .message{
+    position: relative;
+    left: 40px;
+}
+.container1 .container1-1 .contacts{
+    font-size: 18px;
+}
+#container1 .container1-1 .contacts span img{
+    width: 17px;
+    height:17px;
+}
+
+/* container1 images styling */
+#container1 .container1-1 .socio{
+    position: relative;
+    left:22.5%; 
+}
+#container1 .container1-1 .socio img{
+    position: relative;
+    right:80%;
+    width: 20px;
+    height: 20px;
+}
+ #container1 .container1-1 .socio button{
+    position: relative;
+    bottom:6.8px;
+    padding:5.5px;
+    background-color:#DDAF58;;
+    border: none;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 1.8px;
+}
+#container1 .container1-1 .socio .facebook{
+    position: relative;
+    right: 90%;
+}  
+#container1 .container1-1 .socio .google{
+    position: relative;
+    right: 85%; 
+}
+#container1 .container1-1 .socio .twitter{
+    position: relative; 
+    right:75%;
+}
+
+/*--------------------------------------------------------
+---------This is container2 home logo & nav menu ---------
+----------------------------------------------------------
+*/
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:1.1%;
+}
+.container2 img{
+    width: 96px;
+    height: 18px;
+}
+.container2 ul{
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.container2 nav ul li a{
+    padding: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container2 nav{
+    position: relative;
+    right:41%;
+}
+/*--------------------------------------------------------
+----------This is  container3 Eliza boy friend image------
+----------------------------------------------------------
+*/ 
+.container3 img{
+    width:100%;
+    height: auto;
+}
+
+/*--------------------------------------------------------
+-----This is container4 The Articles & button area--------
+----------------------------------------------------------
+*/
+.container4 .Versatility{
+    margin-top: 5%;
+    margin-bottom:4%;
+
+}
+.container4 .Versatility .Enjoy{
+font-size:2.6rem;
+}
+.container4 .Versatility .page{
+    margin-top: 1.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container4 .Versatility .Enjoy span{
+    font-weight: bold;
+    padding:10px;
+    margin-top:30px;
+}
+.container4 .button-max button{
+   display:inline-block;
+   margin-bottom: 4%;
+   background-color: #E8E4E4;
+   border: none;
+   border-radius: 10px;
+   padding: 4px 12px 4px 12px;
+   font-weight: bold;
+}
+
+.container4 .button-max .all{
+background-color: #DDAF58;
+color: white;
+}
+
+
+/*--------------------------------------------------------
+---------This is container5 mage home for the pages-------
+----------------------------------------------------------
+*/
+
+.img1{
+    grid-area:img1;
+  }
+  .img2{
+   grid-area:img2;
+  }
+  .img3{
+   grid-area:img3;
+  }
+  .img4{
+   grid-area:img4;
+  }
+  .img5{
+   grid-area:img5;
+  }
+  .img6{
+   grid-area:img6;
+  }
+  .img7{
+   grid-area:img7;
+  }
+  .img8{
+   grid-area:img8;
+  }
+  .img9{
+   grid-area:img9;
+  }
+  .grid-container5{
+    display:grid;
+    grid-template-areas:
+    'img1 img2 img3'
+    'img4 img2 img5'
+    'img4 img6 img7'
+    'img8 img9 img7';
+    justify-content: center;
+    padding: auto;
+    row-gap:10px;
+    column-gap:180px;
+    margin: auto;
+   
+  }
+  .grid-container5 > div img{
+    width: 189%;
+    margin: auto;
+  }
+  .grid-container5 > div{
+    position: relative;
+    width: 100%;
+    right:35%;
+  }
+
+/*--------------------------------------------------------
+------------------This is container6 logo home------------
+----------------------------------------------------------
+*/
+.container6{
+    display:flex;
+    flex-direction:row;
+    gap:0.5%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  
+}
+.container6 > img{
+    width:97%;
+    margin-left:0;
+    margin-right: 0;
+}
+.container6 > .image5, .image6{
+    position: relative;
+    left: 33px;
+}
+.container6 > .image3, .image4{
+    position: relative;
+    left:16.9px; 
+}
+
+
+/*--------------------------------------------------------
+-----------This is container7 the footer home area -------
+----------------------------------------------------------
+*/
+#container7{
+    background-color: #000000;
+    color: white;
+}
+
+#container7 .container7-1 .sect-one{
+    display: flex;
+    justify-content: center;
+     padding-top: 50px;
+}
+#container7 .container7-1 .sect-one p{
+    font-weight: 500.9;
+    margin-top: 20px;
+}
+
+#container7 .container7-1 .sect-one .form-p form input{
+    border: none;
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right:2px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 10px;
+
+}
+
+/*
+----------------------------------------------
+-----This is the text styling in Section------
+------------also the shortform----------------
+----------------------------------------------
+*/
+#container7 .container7-1 .sect-one .form-p form > img{
+    background-color: red;
+    width: 20px;
+    height: 27.9px;
+    position:relative;
+    top: 10px;
+    right: 3.8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+}
+
+#container7 .container7-1 .sect-one .link , #container7 .container7-1 .sect-one .Latest{
+    line-height: 2rem;
+}
+#container7 .container7-1 .sect-one .Latest, #container7 .container7-1 .sect-one .form-p {
+    position: relative;
+    left: 30px;
+}
+
+#container7 .container7-1 .sect-one .About p{
+    line-height: 1.7rem;
+}
+#container7 .container7-1 .sect-one .form-p p{
+    line-height: 1.6rem;
+}
+#container7 .container7-1 .down-footer{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 45px;
+    padding-bottom: 30px;
+   
+}
+
+/*
+----------------------------------------------
+      ---This is down footer styling---
+----------------------------------------------
+*/
+#container7 .container7-1 .down-footer .arrow{
+    border-radius: 3.8px;
+}
+hr.footer{
+    margin-top: 27px;
+    border-top: 2px solid  #000000;
+    border-color:  #000000 ;
+}
+ 
+#container7 .container7-1 .down-footer .face{
+    margin-left:10%;
+}
+#container7 .container7-1 .down-footer .twit{
+    margin-right:30%;
+}
+#container7 .container7-1 .down-footer .goog, #container7 .container7-1 .down-footer .logo{
+    position: relative;
+    right: 30%;
+
+} 
+
+/*--------------------------------------------------------
+-----------Responsive Design (Mobile View) ----------------
+----------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+
+    /* General adjustments */
+    .container1-1 ,.container2,.container4,.container5 ,.container6,.container7-1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* Adjust container1 */
+    #container1 .container1-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #container1 .container1-1 .contacts, #container1 .container1-1 .socio {
+        position: relative;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    #container1 .container1-1 .socio img {
+        margin: 0 10px;
+    }
+
+    /* Adjust container2 */
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container2 nav {
+        right: 0;
+        text-align: center;
+    }
+
+    /* Adjust container3 */
+    .container3 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust container4 */
+    .container4 .Versatility .Enjoy {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .container4 .button-max {
+        text-align: center;
+    }
+
+    /* Adjust container5 */
+    .grid-container5 {
+        grid-template-areas:
+        'img1'
+        'img2'
+        'img3'
+        'img4'
+        'img5'
+        'img6'
+        'img7'
+        'img8'
+        'img9';
+        column-gap: 10px;
+    }
+    .grid-container5 > div img {
+        width: 100%;
+    }
+    .grid-container5 > div {
+        position: relative;
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Adjust container6 */
+    .container6 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container6 > img {
+        width: 90%;
+    }
+    .container6 > .image5, .container6 > .image6, .container6 > .image3, .container6 > .image4 {
+        left: 0;
+    }
+
+    /* Adjust container7 */
+    #container7 .container7-1 .sect-one {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    #container7 .container7-1 .sect-one .form-p form input {
+        width: 80%;
+    }
+    #container7 .container7-1 .down-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #container7 .container7-1 .down-footer .face,
+    #container7 .container7-1 .down-footer .twit,
+    #container7 .container7-1 .down-footer .goog {
+        margin: 5px 0;
+    }
+}
+
+/*--------------------------------------------------------
+-----------Additional Mobile Menu (JS for toggle)---------
+----------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+    .container2 nav ul {
+        display: none;
+        flex-direction: column;
+        background-color: #061E29;
+        width: 100%;
+        text-align: center;
+    }
+    .container2 nav ul.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
+        background-color: #DDAF58;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}
