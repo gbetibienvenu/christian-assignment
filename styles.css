@@ -1,5 +1,5 @@
 /*--------------------------------------------------------
---------------This is  default styling  area--------------
+--------------This is default styling area--------------
 ----------------------------------------------------------
 */ 
 
@@ -9,7 +9,7 @@
 }
 
 /*--------------------------------------------------------
--------------This is  where the body take action----------
+-------------This is where the body take action----------
 ----------------------------------------------------------
 */ 
 body{
@@ -20,6 +20,7 @@ body{
     margin-left: 16%;
     margin-right: 16%;
 }
+
 /*--------------------------------------------------------
 -----This is container1 socio-media & GET A QUOTE Area----
 ----------------------------------------------------------
@@ -118,7 +119,7 @@ body{
     right:41%;
 }
 /*--------------------------------------------------------
-----------This is  container3 Eliza boy friend image------
+----------This is container3 Eliza boy friend image------
 ----------------------------------------------------------
 */ 
 .container3 img{
@@ -375,10 +376,6 @@ hr.footer{
         flex-direction: column;
         align-items: center;
     }
-    .container2 nav {
-        right: 0;
-        text-align: center;
-    }
 
     /* Adjust container3 */
     .container3 img {
@@ -436,9 +433,6 @@ hr.footer{
         align-items: center;
         padding-top: 20px;
     }
-    #container7 .container7-1 .sect-one .form-p form input {
-        width: 80%;
-    }
     #container7 .container7-1 .down-footer {
         flex-direction: column;
         align-items: center;
@@ -448,31 +442,5 @@ hr.footer{
     #container7 .container7-1 .down-footer .twit,
     #container7 .container7-1 .down-footer .goog {
         margin: 5px 0;
-    }
-}
-
-/*--------------------------------------------------------
------------Additional Mobile Menu (JS for toggle)---------
-----------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-    .container2 nav ul {
-        display: none;
-        flex-direction: column;
-        background-color: #061E29;
-        width: 100%;
-        text-align: center;
-    }
-    .container2 nav ul.active {
-        display: flex;
-    }
-    .menu-toggle {
-        display: block;
-        background-color: #DDAF58;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        cursor: pointer;
-        font-weight: bold;
-        margin-bottom: 10px;
     }
 }
